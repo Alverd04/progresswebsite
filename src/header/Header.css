@@ -34,4 +34,26 @@
   background: rgba(241, 241, 241, 0.096);
   border-radius: 20vh;
 }
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 30%;
+    height: 100vh;
+    text-align: center;
+    border-radius: 0vh 20vh 20vh 0vh;
+  }
+}
 /*# sourceMappingURL=Header.css.map */

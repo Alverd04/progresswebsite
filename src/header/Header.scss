@@ -28,3 +28,16 @@
         
     }
 }
+
+@media only screen and (max-width: 600px){
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 30%;
+        height: 100vh;
+        text-align: center;
+        border-radius: 0vh 20vh 20vh 0vh;
+    }
+}

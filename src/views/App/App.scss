@@ -127,3 +127,30 @@ body{
     }
   }
   
+
+@media only screen and (max-width: 600px){
+
+  .content{
+    .big-logo{
+      h1{
+        font-size: 10vh;
+      }
+    }
+  }
+
+  .who-we-are{
+    .text-container{
+      width: 90%;
+    }
+  }
+
+  .login-register{
+    .login-register-text{
+      width: 90%;
+      h1{
+        font-size: 3vh;
+      }
+    }
+  }
+
+}
