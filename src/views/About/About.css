@@ -111,6 +111,7 @@ body {
 }
 
 .content .founders .founders-div .albert-g:hover .albert-g-hover {
+  font-size: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,6 +148,7 @@ body {
 }
 
 .content .founders .founders-div .albert-f:hover .albert-f-hover {
+  font-size: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,6 +188,7 @@ body {
 }
 
 .content .founders .founders-div .pol-r:hover .pol-r-hover {
+  font-size: 5vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

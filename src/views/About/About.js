@@ -35,10 +35,7 @@ function About() {
               </div>
               <div className="albert-g-hover">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corrupti, atque. Mollitia illum ea vero aperiam excepturi
-                  temporibus debitis voluptatibus, repudiandae odit qui quod
-                  nulla molestias doloribus assumenda, tempora soluta vitae?
+                  DIRECTOR FINANCES
                 </p>
               </div>
             </div>
@@ -48,10 +45,7 @@ function About() {
               </div>
               <div className="albert-f-hover">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corrupti, atque. Mollitia illum ea vero aperiam excepturi
-                  temporibus debitis voluptatibus, repudiandae odit qui quod
-                  nulla molestias doloribus assumenda, tempora soluta vitae?
+                  CEO
                 </p>
               </div>
             </div>
@@ -61,10 +55,7 @@ function About() {
               </div>
               <div className="pol-r-hover">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Corrupti, atque. Mollitia illum ea vero aperiam excepturi
-                  temporibus debitis voluptatibus, repudiandae odit qui quod
-                  nulla molestias doloribus assumenda, tempora soluta vitae?
+                  DIRECTOR DISSENY
                 </p>
               </div>
             </div>

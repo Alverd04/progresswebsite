@@ -80,10 +80,10 @@ body{
                 background-color: gray;
                 color: white;
                 .albert-g-hover{
+                    font-size: 5vh;
                     display: flex;
                 }
                 .albert-g-no-hover{
-                    
                     display: none;
                 }
             }
@@ -103,6 +103,7 @@ body{
                 background-color: gray;
                 color: white;
                 .albert-f-hover{
+                    font-size: 5vh;
                     display: flex;
                 }
                 .albert-f-no-hover{
@@ -129,6 +130,7 @@ body{
                 background-color: gray;
                 color: white;
                 .pol-r-hover{
+                    font-size: 5vh;
                     display: flex;
                 }
                 .pol-r-no-hover{
@@ -164,6 +166,7 @@ body{
                     width: 100%;
                     height: calc(100%/3);
                 }
+                
                
                 .albert-f{
                     width: 100%;
