@@ -1,0 +1,30 @@
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    transition: top 0.3s;
+    width: 100%;
+    height: 8vh;
+    background: rgba(85, 85, 85, 0.384);
+    border-radius: 0vh 0vh 20vh 20vh;
+    .menu{   
+        li{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 2.5vh;
+            float: left;
+            text-decoration: none;
+            list-style: none;
+            margin-left: 5vh;
+            outline: none;
+            padding: 1vh;
+        }
+        li:hover{
+            background: rgba(241, 241, 241, 0.096);
+            border-radius: 20vh;
+        }
+        
+    }
+}

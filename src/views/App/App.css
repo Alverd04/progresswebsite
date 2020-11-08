@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+.background-image {
+  height: 100vh;
+  background-image: url("https://images.wallpaperscraft.com/image/book_hands_pencil_153490_3840x2160.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content .big-logo {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .big-logo h1 {
+  color: #dadada;
+  font-size: 20vh;
+}
+
+.content .button-logo {
+  margin-top: -30vh;
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 10vh;
+}
+
+.content .button-logo button {
+  margin-top: 9vh;
+  float: left;
+  background: none;
+  border: 1px solid #dadada;
+  color: #dadada;
+  font-size: 3.5vh;
+  padding: 2vh;
+  border-radius: 20vh;
+  outline: none;
+  overflow: hidden;
+}
+
+.content .button-logo button:hover {
+  background: rgba(15, 13, 43, 0.534);
+  cursor: pointer;
+}
+
+.who-we-are {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  background-color: white;
+}
+
+.who-we-are .text-container {
+  width: 30%;
+}
+
+.who-we-are .text-container h1 {
+  font-size: 6vh;
+}
+
+.who-we-are .text-container p {
+  font-size: 1.9vh;
+}
+
+.who-we-are .text-container button {
+  margin-top: 2vh;
+  background: none;
+  border: 1px solid #0f0d2b;
+  color: #0f0d2b;
+  font-size: 3vh;
+  padding: 2vh;
+  border-radius: 20vh;
+  outline: none;
+  overflow: hidden;
+}
+
+.who-we-are .text-container button:hover {
+  cursor: pointer;
+}
+
+.login-register {
+  background: #0f0d2b;
+  color: #dadada;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-register .login-register-text {
+  width: 40%;
+  text-align: center;
+}
+
+.login-register .login-register-text h1 {
+  font-size: 5vh;
+  margin-bottom: 5vh;
+}
+
+.login-register .login-register-text a {
+  margin: 3vh;
+  border: 0.3vh solid #dadada;
+  background: none;
+  color: #dadada;
+  border-radius: 10vh;
+  padding: 1.2vh;
+  text-decoration: none;
+  font-size: 4vh;
+  font-weight: 100;
+}
+
+.login-register .login-register-text a:hover {
+  background: #dadada;
+  color: #0f0d2b;
+  border: 0.5vh solid #dadada;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,179 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+
+.content .progress {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("https://b8g9x2x5.rocketcdn.me/wp-content/uploads/2018/08/team-teamwork-together-ss-1920_b1tngv.jpg");
+}
+
+.content .progress .progress-content {
+  background-color: rgba(0, 0, 0, 0.336);
+  padding: 10vh;
+  border-radius: 10vh;
+  font-size: 2.5vh;
+  text-align: center;
+  width: 50%;
+}
+
+.content .progress .progress-content button {
+  margin-top: 9vh;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-size: 4vh;
+  padding: 1vh;
+  border-radius: 20vh;
+  outline: none;
+  overflow: hidden;
+}
+
+.content .progress .progress-content button:hover {
+  background: rgba(0, 0, 0, 0.39);
+  cursor: pointer;
+}
+
+.content .founders .founders-div {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .founders .founders-div .albert-g {
+  background: white;
+  width: calc(100%/3);
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content .founders .founders-div .albert-g .albert-g-hover {
+  text-align: center;
+  margin: 10vh;
+  display: none;
+}
+
+.content .founders .founders-div .albert-g:hover {
+  background-color: gray;
+  color: white;
+}
+
+.content .founders .founders-div .albert-g:hover .albert-g-hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .founders .founders-div .albert-g:hover .albert-g-no-hover {
+  display: none;
+}
+
+.content .founders .founders-div .albert-f {
+  width: calc(100%/3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content .founders .founders-div .albert-f .albert-f-hover {
+  text-align: center;
+  margin: 10vh;
+  display: none;
+}
+
+.content .founders .founders-div .albert-f:hover {
+  background-color: gray;
+  color: white;
+}
+
+.content .founders .founders-div .albert-f:hover .albert-f-hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .founders .founders-div .albert-f:hover .albert-f-no-hover {
+  display: none;
+}
+
+.content .founders .founders-div .pol-r {
+  width: calc(100%/3);
+  background: white;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content .founders .founders-div .pol-r .pol-r-hover {
+  text-align: center;
+  margin: 10vh;
+  display: none;
+}
+
+.content .founders .founders-div .pol-r:hover {
+  background-color: gray;
+  color: white;
+}
+
+.content .founders .founders-div .pol-r:hover .pol-r-hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .founders .founders-div .pol-r:hover .pol-r-no-hover {
+  display: none;
+}
+/*# sourceMappingURL=About.css.map */

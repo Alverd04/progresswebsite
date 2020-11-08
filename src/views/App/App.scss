@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap');
+
+$progressBlue: rgb(15, 13, 43);
+$progressGray: rgb(218, 218, 218);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.background-image {
+  height: 100vh;
+  background-image: url("https://images.wallpaperscraft.com/image/book_hands_pencil_153490_3840x2160.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  .big-logo {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      color: $progressGray;
+      font-size: 20vh;
+    }
+  }
+  .button-logo {
+    margin-top: -30vh;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    button {
+      margin-top: 9vh;
+      float: left;
+      background: none;
+      border: 1px solid $progressGray;
+      color: $progressGray;
+      font-size: 3.5vh;
+      padding: 2vh;
+      border-radius: 20vh;
+      outline: none;
+      overflow: hidden;
+    }
+    button:hover {
+      background: rgba(15, 13, 43, 0.534);
+      cursor: pointer;
+    }
+  }
+}
+
+
+.who-we-are {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation-delay: 1s;
+    background-color: white;
+    .text-container {
+      width: 30%;
+      h1 {
+        font-size: 6vh;
+      }
+      p {
+        font-size: 1.9vh;
+      }
+      button {
+        margin-top: 2vh;
+        background: none;
+        border: 1px solid $progressBlue;
+        color: $progressBlue;
+        font-size: 3vh;
+        padding: 2vh;
+        border-radius: 20vh;
+        outline: none;
+        overflow: hidden;
+      }
+      button:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .login-register {
+    background: $progressBlue;
+    color: $progressGray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .login-register-text {
+      width: 40%;
+      text-align: center;
+      h1 {
+        font-size: 5vh;
+        margin-bottom: 5vh;
+      }
+      a {
+        margin: 3vh;
+        border: 0.3vh solid $progressGray;
+        background: none;
+        color: $progressGray;
+        border-radius: 10vh;
+        padding: 1.2vh;
+        text-decoration: none;
+        font-size: 4vh;
+        font-weight: 100;
+      }
+      a:hover {
+        background: $progressGray;
+        color: $progressBlue;
+        border: 0.5vh solid $progressGray;
+      }
+    }
+  }
+  
