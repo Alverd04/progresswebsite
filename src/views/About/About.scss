@@ -109,7 +109,8 @@ body{
                 transition: 0.5s;
                 .pol-r-hover{
                     text-align: center;
-                    margin: 10vh;
+                    margin-right: 10vh;
+                    margin-left: 10vh;
                     display: none;
                 }
             }
@@ -123,6 +124,39 @@ body{
                     
                     display: none;
                 }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .content{
+        .progress{
+            .progress-content{
+                height: 75%;
+                button{
+                    font-size: 3vh;
+                }
+            }
+        }
+        .founders{
+            .founders-div{
+                flex-direction: column;
+                .albert-g{
+                    width: 100%;
+                    height: calc(100%/3);
+                }
+               
+                .albert-f{
+                    width: 100%;
+                    height: calc(100%/3)
+                }
+               
+                .pol-r{
+                    width: 100%;
+                    height: calc(100%/3)
+                }
+                
             }
         }
     }

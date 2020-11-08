@@ -75,4 +75,11 @@ body {
 .contact .form form #submit:hover {
   background-color: rgba(15, 13, 43, 0.473);
 }
+
+@media only screen and (max-width: 600px) {
+  .contact .form {
+    width: 80%;
+    height: 80%;
+  }
+}
 /*# sourceMappingURL=Contact.css.map */

@@ -158,7 +158,8 @@ body {
 
 .content .founders .founders-div .pol-r .pol-r-hover {
   text-align: center;
-  margin: 10vh;
+  margin-right: 10vh;
+  margin-left: 10vh;
   display: none;
 }
 
@@ -175,5 +176,32 @@ body {
 
 .content .founders .founders-div .pol-r:hover .pol-r-no-hover {
   display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .content .progress .progress-content {
+    height: 75%;
+  }
+  .content .progress .progress-content button {
+    font-size: 3vh;
+  }
+  .content .founders .founders-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content .founders .founders-div .albert-g {
+    width: 100%;
+    height: calc(100%/3);
+  }
+  .content .founders .founders-div .albert-f {
+    width: 100%;
+    height: calc(100%/3);
+  }
+  .content .founders .founders-div .pol-r {
+    width: 100%;
+    height: calc(100%/3);
+  }
 }
 /*# sourceMappingURL=About.css.map */
